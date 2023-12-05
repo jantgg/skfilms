@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'CA Yoshiro';
+  src: url('/fonts/CAYoshiroTRIAL-Bold-BF6567e973312c5.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CA Yoshiro';
+  src: url('/fonts/CAYoshiroTRIAL-ExtraBold-BF6567e973d2f67.otf') format('opentype');
+  font-weight:800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CA Yoshiro';
+  src: url('/fonts/CAYoshiroTRIAL-Light-BF6567e973a865e.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CA Yoshiro';
+  src: url('/fonts/CAYoshiroTRIAL-Regular-BF6567e973cafef.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* WIDE */
+@font-face {
+  font-family: 'CA Yoshiro Wide';
+  src: url('/fonts/CAYoshiroWideTRIAL-Bold-BF6567e973cb431.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CA Yoshiro Wide';
+  src: url('/fonts/CAYoshiroWideTRIAL-ExtraBold-BF6567e973df1fa.otf') format('opentype');
+  font-weight:800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CA Yoshiro Wide';
+  src: url('/fonts/CAYoshiroWideTRIAL-Light-BF6567e9739f7fe.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'CA Yoshiro Wide';
+  src: url('/fonts/CAYoshiroWideTRIAL-Regular-BF6567e973de3cc.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Repite esto para cada variante de la fuente, cambiando el peso y estilo según corresponda */
+
+body::-webkit-scrollbar {
+  display: none; /* Oculta la barra de desplazamiento */
+}
+
+body {
+  font-family: 'CA Yoshiro Wide', sans-serif;
+  font-weight: normal;
+  background-color: #F1FAEE;
+  overflow: hidden;
+  height: 100vh; 
+}
+.texto-lato{
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+
+.texto-extrabold {
+  font-family: 'CA Yoshiro', sans-serif;
+  font-weight: 800;
+}
+.texto-bold {
+  font-family: 'CA Yoshiro', sans-serif;
+  font-weight: bold;
+}
+.texto-normal {
+  font-family: 'CA Yoshiro', sans-serif;
+  font-weight: normal;
+}
+.texto-light {
+  font-family: 'CA Yoshiro', sans-serif;
+  font-weight: 300;
+}
+/* WIDE */
+.texto-extrabold-wide {
+  font-family: 'CA Yoshiro Wide', sans-serif;
+  font-weight: 800;
+}
+.texto-bold-wide {
+  font-family: 'CA Yoshiro Wide', sans-serif;
+  font-weight: bold;
+}
+.texto-normal-wide {
+  font-family: 'CA Yoshiro Wide', sans-serif;
+  font-weight: normal;
+}
+.texto-light-wide {
+  font-family: 'CA Yoshiro Wide', sans-serif;
+  font-weight: 300;
+}
+

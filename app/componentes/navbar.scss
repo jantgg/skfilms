@@ -1,0 +1,209 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  height: 8vh;
+  width: 100%;
+  color: #2e2e2e;
+  z-index: 99;
+  justify-content: center;
+  padding-left: 0vw;
+}
+
+.div2-inter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+  gap: 7vw;
+}
+
+
+
+// Colors
+$color-1: #ab9597;
+$color-2: #E63946;
+$color-3: #968f4b;
+$black: #000;
+$base-duration: 300ms;
+.right-arrow{
+  transform: translateY(-10%);
+  transition: opacity 0.3s ease-in-out;
+  font-size: 2vw;
+  color: #E63946;
+}
+.opacity1{
+  opacity: 1;
+}
+.opacity0{
+  opacity: 0;
+}
+
+.glitch-hover-video {
+  align-items: center;
+  display: flex;
+  position: relative;
+  z-index: 99;
+  cursor: pointer;
+  &:hover {
+    &:before,
+    &:after {
+      position: absolute;
+      content: "VIDEO";
+      transform: translate(-39%, -50%);
+      z-index: -1;
+    }
+
+    &:before {
+      top: 49.5%;
+      left: 49.5%;
+      color: rgba($color-1, 0.8);
+      animation: distort1 $base-duration linear infinite;
+    }
+
+    &:after {
+      top: 50.5%;
+      left: 50.5%;
+      color: rgba($color-2, 0.8);
+      animation: distort2 $base-duration linear infinite;
+    }
+  }
+}
+@keyframes distort1 {
+  0% {
+    top: 49%;
+    left: 49%;
+  }
+  12.5% {
+    top: 49%;
+    left: 50%;
+  }
+  25% {
+    top: 49%;
+    left: 51%;
+  }
+  37.5% {
+    top: 50%;
+    left: 51%;
+  }
+  50% {
+    top: 51%;
+    left: 51%;
+  }
+  62.5% {
+    top: 51%;
+    left: 50%;
+  }
+  75% {
+    top: 51%;
+    left: 49%;
+  }
+  87.5% {
+    top: 50%;
+    left: 49%;
+  }
+  100% {
+    top: 49%;
+    left: 49%;
+  }
+}
+
+@keyframes distort2 {
+  0% {
+    top: 51%;
+    left: 51%;
+  }
+  12.5% {
+    top: 50%;
+    left: 51%;
+  }
+  25% {
+    top: 49%;
+    left: 51%;
+  }
+  37.5% {
+    top: 49%;
+    left: 50%;
+  }
+  50% {
+    top: 49%;
+    left: 49%;
+  }
+  62.5% {
+    top: 50%;
+    left: 49%;
+  }
+  75% {
+    top: 51%;
+    left: 49%;
+  }
+  87.5% {
+    top: 51%;
+    left: 50%;
+  }
+  100% {
+    top: 51%;
+    left: 51%;
+  }
+}
+.glitch-hover-photo {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 99;
+  cursor: pointer;
+  &:hover {
+    &:before,
+    &:after {
+      position: absolute;
+      content: "FOTO";
+      transform: translate(-39%, -50%);
+      z-index: -1;
+    }
+
+    &:before {
+      top: 49.5%;
+      left: 49.5%;
+      color: rgba($color-1, 0.8);
+      animation: distort1 $base-duration linear infinite;
+    }
+
+    &:after {
+      top: 50.5%;
+      left: 50.5%;
+      color: rgba($color-2, 0.8);
+      animation: distort2 $base-duration linear infinite;
+    }
+  }
+}
+
+.glitch-hover-about {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 99;
+  cursor: pointer;
+  &:hover {
+    &:before,
+    &:after {
+      position: absolute;
+      content: "SOBREMI";
+      transform: translate(-39%, -50%);
+      z-index: -1;
+    }
+
+    &:before {
+      top: 49.5%;
+      left: 49.5%;
+      color: rgba($color-1, 0.8);
+      animation: distort1 $base-duration linear infinite;
+    }
+
+    &:after {
+      top: 50.5%;
+      left: 50.5%;
+      color: rgba($color-2, 0.8);
+      animation: distort2 $base-duration linear infinite;
+    }
+  }
+}

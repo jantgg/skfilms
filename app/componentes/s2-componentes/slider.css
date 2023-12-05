@@ -1,0 +1,32 @@
+.slider-container {
+    overflow-x: hidden;
+    cursor: grab;
+    position: relative;
+    display: flex;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    will-change: transform;
+    overflow-x: auto;
+    gap: 3vw;
+}
+
+.jarallax {
+    height: 60vh;
+    min-width: 20vw;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+    background-color: aqua;
+}
+
+.jarallax-img {
+    position: absolute;
+    object-fit: cover;
+
+}

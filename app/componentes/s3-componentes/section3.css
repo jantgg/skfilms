@@ -1,0 +1,60 @@
+.section3 {
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 1;
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.section-visible3 {
+  opacity: 1;
+  z-index: 1;
+}
+.section-invisible3 {
+  opacity: 0;
+  z-index: -99;
+  transform: translateY(100%);
+}
+.foto-about {
+  position: absolute;
+  top: 48%;
+  left: 40.3%;
+  width: 35%;
+  height: 70%;
+  transform: translate(-50%, -50%);
+}
+.section3 h3 {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 3VW;
+}
+.section3 p {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-wrap: wrap;
+  font-size: 1VW;
+}
+.img-s3{
+  position: relative;
+  height: 100%; /* O cualquier otra altura relativa */
+  width: auto;
+object-fit: contain;
+}
+.description-about {
+  position: absolute;
+  width: 50%;
+  top: 52%;
+  left: 73%;
+  width: 35%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+}

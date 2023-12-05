@@ -1,0 +1,78 @@
+.side{
+    position: fixed;
+    top: 50%;
+    left:-15%;
+    transform: rotate(90deg);
+    line-height:0.8;
+}
+.sk{
+  opacity: 0;
+}
+.dark {
+    color: #E63946;
+  }
+.glitch {
+    position: relative;
+    color: #2e2e2e;
+    font-size: 27vh;
+    letter-spacing: -1.3vw;
+  }
+  
+  .line {
+    &:not(:first-child) {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  
+    @for $i from 1 through 10 {
+      &:nth-child(#{$i}) {
+        animation: clip 6000ms $i * -800ms linear infinite,
+          glitch#{$i} 1000ms random(1000) * -1ms linear infinite;
+  
+        @keyframes glitch#{$i} {
+          0% {
+            transform: translateX(0);
+          }
+          80% {
+            transform: translateX(0);
+            color: #322222;
+          }
+          85% {
+            transform: translateX(random(10) - 8px);
+            color: #342332;
+          }
+          90% {
+            transform: translateX(random(10) - 8px);
+            color: #2e2e2e;
+          }
+          95% {
+            transform: translateX(random(10) - 8px);
+            color: #2e2e2e;
+          }
+          100% {
+            transform: translateX(0);
+          }
+        }
+      }
+    }
+  }
+  
+  @keyframes clip {
+    0% {
+      clip-path: polygon(0 100%, 100% 100%, 100% 120%, 0 120%);
+    }
+  
+    100% {
+      clip-path: polygon(0 -20%, 100% -20%, 100% 0%, 0 0);
+    }
+  }
+
+
+  .glitch2 {
+    position: absolute;
+    color: #2e2e2e;
+    font-size: 27vh;
+    transform: rotate(-90deg) translateY(-120%)  translateX(84%);
+  }
+  

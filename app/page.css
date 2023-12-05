@@ -1,0 +1,55 @@
+main{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden !important;
+    height: 100vh;
+}
+.red-line {
+  position: fixed;
+  top: 0;
+  left: 50%; /* Centra la línea horizontalmente */
+  height: 100%; /* Asegura que la línea se extienda a lo alto de la pantalla */
+  width: 1px; /* Ajusta el grosor de la línea según tus preferencias */
+  background-color: red; /* El color de la línea */
+  z-index: 9999; /* Asegura que la línea esté sobre otros elementos */
+}
+
+
+.main1{
+height: 100vh;
+width:100%;
+display: flex;
+}
+.main2{
+  height: 100vh;
+  width:100%;  
+  display: flex;
+}
+.main3{
+   height: 100vh;
+   width:100%; 
+   display: flex;
+}
+
+.background {
+  position: fixed;
+  height: 110vh;
+  width: 100%;
+  background: url(film.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.01;
+  z-index: -99;
+}
+.noise {
+  position: fixed;
+  height: 110vh;
+  width: 100%;
+  background: url(noise.gif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.01;
+  z-index: -99;
+}
