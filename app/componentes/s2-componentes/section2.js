@@ -80,38 +80,38 @@ const Section2 = () => {
     return (
         <section className={`section2 ${estado2 ? "section-visible2":"section-invisible2"}`} ref={sectionRef2}>
             <div ref={containerS2Ref1} className={`video-containerS2 ${containerS21 ? "position-mid-s2" : "position-up-s2"}`}>
-         <Image className="img-slider-s2" src="/fotos/elisa1.jpg"   layout="fill"
+         <Image className="img-slider-s2" src="/fotos/elisa1.jpg" fill
    alt="Una mujer joven con cabello castaño claro a la altura de los hombros y un piercing en la nariz, mira hacia la derecha con una expresión contemplativa. Lleva una camiseta blanca básica y un peto vaquero con una de las tiras bajada. La foto tiene un tono ligeramente púrpura y está tomada al atardecer, lo que da una luz suave y cálida. El fondo desenfocado muestra la textura áspera de la corteza de un árbol grande."/>
             </div>
             <div ref={containerS2Ref2} className={`video-containerS2 ${containerS22 ? "position-mid-s2": containerS21 ? "position-down-s2":"position-up-s2"}`}>
-            <Image className="img-slider-s2" src="/fotos/elisa2.jpg"   layout="fill"
+            <Image className="img-slider-s2" src="/fotos/elisa2.jpg" fill
    alt= "Retrato de una mujer joven con cabello castaño corto y liso, mirando hacia la derecha con una expresión pensativa. Lleva una camiseta negra y un collar delgado. Está rodeada de hojas verdes en primer plano, con una estructura metálica oxidada y ladrillos al fondo, lo que sugiere un entorno abandonado o rústico. La iluminación natural suave enfatiza la atmósfera tranquila y reflexiva de la escena."/>
             </div>
             <div ref={containerS2Ref3} className={`video-containerS2 ${containerS23 ? "position-mid-s2": containerS21 || containerS22 ? "position-down-s2":"position-up-s2"}`}>
-            <Image className="img-slider-s2" src="/fotos/elisa3.jpg"   layout="fill"
+            <Image className="img-slider-s2" src="/fotos/elisa3.jpg" fill
    alt= "Una mujer con cabello corto color rojo y gafas de sol redondas se encuentra de perfil bajo la sombra de hojas de árbol, proyectadas sobre una pared azul. Lleva una camiseta negra con una imagen estampada del Silver Surfer de los cómics, con colores vibrantes como el amarillo, azul y rojo. La expresión de la mujer es pensativa y está mirando hacia la derecha fuera del cuadro de la imagen"/>
             </div>
             <div ref={containerS2Ref4} className={`video-containerS2 ${containerS24 ? "position-mid-s2": containerS21 || containerS22 || containerS23 ? "position-down-s2":"position-up-s2"}`}>
-            <Image className="img-slider-s2" src="/fotos/shuck1.jpg"   layout="fill"
+            <Image className="img-slider-s2" src="/fotos/shuck1.jpg" fill
     alt="Un hombre joven mira hacia arriba, extendiendo su brazo hacia algo fuera de la vista. Lleva una camisa de botones con un estampado tropical que incluye hojas de palmera en tonos de azul y verde. La luz natural filtra a través de las hojas detrás de él, y se encuentra dentro de lo que parece ser un invernadero o un ambiente con vegetación exuberante visible a través de los paneles de vidrio detrás de él, lo que da la impresión de exploración o admiración por la naturaleza."/>
             </div>
             <div ref={containerS2Ref5} className={`video-containerS2 ${containerS25 ? "position-mid-s2": containerS21 || containerS22 || containerS23 || containerS24? "position-down-s2":"position-up-s2"}`}>
-      <Image className="img-slider-s2" src="/fotos/shuck2.jpg"   layout="fill"
+      <Image className="img-slider-s2" src="/fotos/shuck2.jpg" fill
    alt="Un hombre joven con una postura relajada está de pie contra una pared de madera. Lleva una camiseta de rayas horizontales grises y blancas, pantalones cortos turquesa desgastados y zapatillas blancas con detalles negros. Tiene un corte de cabello corto y lleva una bandolera verde neón con texto negro cruzada sobre el pecho. El ambiente parece informal y urbano."/>
 
             </div>
             <div ref={containerS2Ref6} className={`video-containerS2 ${containerS26 ? "position-mid-s2": containerS21 || containerS22 || containerS23 || containerS24 || containerS25? "position-down-s2":"position-up-s2"}`}>
-      <Image className="img-slider-s2" src="/fotos/shuck3.jpg"   layout="fill"
+      <Image className="img-slider-s2" src="/fotos/shuck3.jpg" fill
    alt="Un hombre joven mira hacia arriba, extendiendo su brazo hacia algo fuera de la vista. Lleva una camisa de botones con un estampado tropical que incluye hojas de palmera en tonos de azul y verde. La luz natural filtra a través de las hojas detrás de él, y se encuentra dentro de lo que parece ser un invernadero o un ambiente con vegetación exuberante visible a través de los paneles de vidrio detrás de él, lo que da la impresión de exploración o admiración por la naturaleza."/>
 
             </div>
             <div ref={containerS2Ref7} className={`video-containerS2 ${containerS27 ? "position-mid-s2": containerS21 || containerS22 || containerS23 || containerS24 || containerS25|| containerS26? "position-down-s2":"position-up-s2"}`}>
-      <Image className="img-slider-s2" src="/fotos/tia1.jpg"   layout="fill"
+      <Image className="img-slider-s2" src="/fotos/tia1.jpg" fill
    alt="foto de una mujer"/>
 
             </div>
             <div ref={containerS2Ref8} className={`video-containerS2 ${containerS28 ? "position-mid-s2": containerS21 || containerS22 || containerS23 || containerS24 || containerS25|| containerS26 || containerS27? "position-down-s2":"position-up-s2"}`}>
-      <Image className="img-slider-s2" src="/fotos/tia2.jpg"   layout="fill"
+      <Image className="img-slider-s2" src="/fotos/tia2.jpg" fill
    alt="foto de una mujer"/>
 
             </div>
