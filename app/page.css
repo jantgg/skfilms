@@ -53,3 +53,14 @@ display: flex;
   opacity: 0.01;
   z-index: -99;
 }
+
+/* Mobile */
+@media (max-width: 700px) {
+
+  main{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+overflow: visible !important;
+}
+}

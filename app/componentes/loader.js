@@ -17,7 +17,7 @@ const Loader = () => {
   return (
     <section className={`loader ${loaded ? "load-finish" : ""}`}>
       <h1 className={`texto-extrabold ${textVisible ? "":"not-visible1"}`}><span className="dark">SK</span> FILMS</h1>
-      <h2 className={`texto-light-wide ${textVisible ? "":"not-visible2"}`}>
+      <h2 className={`texto-normal-wide ${textVisible ? "":"not-visible2"}`}>
         Este <strong>portfolio</strong> es una ventana a mi mundo, una colección de narrativas
         visuales y momentos inolvidables que hablan de mi <strong>habilidad</strong> y 
         <strong> dedicación</strong>.<br></br><br></br> <strong>Te invito a explorar mi trabajo.</strong>

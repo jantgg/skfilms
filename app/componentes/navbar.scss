@@ -207,3 +207,10 @@ $base-duration: 300ms;
     }
   }
 }
+
+@media (max-width: 700px) {
+  .navbar {
+  display: none !important;
+  }
+
+}

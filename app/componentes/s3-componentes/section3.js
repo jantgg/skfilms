@@ -13,18 +13,24 @@ gsap.registerPlugin(ScrollTrigger);
 const Section3 = () => {
   const { estado1, setEstado1, estado2, setEstado2, estado3, setEstado3 } =
     useContext(AppContext);
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+      if (typeof window !== "undefined") {
+        setIsMobile(window.innerWidth <= 700);
+      }
+    }, []);
+
 
   return (
     <section
-      className={`section3 ${
-        estado3 ? "section-visible3" : "section-invisible3"
-      }`}
+      className={`section3`}
     >
-      <div className="foto-about">
+      {/* <div className="foto-about">
       <Image className="img-s3" src="/fotos/shuck3.jpg"   layout="fill"
  alt="Un hombre joven mira hacia arriba, extendiendo su brazo hacia algo fuera de la vista. Lleva una camisa de botones con un estampado tropical que incluye hojas de palmera en tonos de azul y verde. La luz natural filtra a través de las hojas detrás de él, y se encuentra dentro de lo que parece ser un invernadero o un ambiente con vegetación exuberante visible a través de los paneles de vidrio detrás de él, lo que da la impresión de exploración o admiración por la naturaleza."/>
 
-      </div>
+      </div> */}
       <div className="description-about">
         {" "}
         <h3 className="texto-extrabold-wide dark">CARLOS VILLAVERDE</h3>
@@ -46,6 +52,24 @@ const Section3 = () => {
           Para consultas, colaboraciones o conocer más sobre mi trabajo no dudes
           en contactarme.
         </p>
+
+        <div className="footer-movil texto-bold-wide dark">
+    
+      
+          <a href="">YOUTUBE</a>
+   
+    
+        
+          <a href="">INSTAGRAM</a>
+
+  
+        
+          <a href="">LINKEDIN</a>
+
+      </div>
+
+
+
       </div>
     </section>
   );

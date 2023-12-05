@@ -76,3 +76,28 @@
     transform: rotate(-90deg) translateY(-120%)  translateX(84%);
   }
   
+
+  @media (max-width: 700px) {
+  .side{
+    position: fixed;
+    top: 25%;
+    left:0;
+    transform: rotate(0deg);
+    line-height:0.8;
+}
+.glitch2 {
+  position: relative;
+  color: #2e2e2e;
+  font-size: 65vw;
+  transform: rotate(0) translateY(-140%)  translateX(2%);
+}
+.glitch {
+  position: relative;
+  color: #2e2e2e;
+  font-size: 28.8vw;
+  letter-spacing: -1.3vw;
+  z-index: 2;
+  transform: rotate(0) translateY(-80%)  translateX(3%);
+}
+
+}

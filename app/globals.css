@@ -105,3 +105,11 @@ body {
   font-weight: 300;
 }
 
+@media (max-width: 700px) {
+body{
+   overflow: visible;
+  height: auto; 
+}
+ 
+
+}
