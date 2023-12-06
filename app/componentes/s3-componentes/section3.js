@@ -33,7 +33,7 @@ const Section3 = () => {
       </div> */}
       <div className="description-about">
         {" "}
-        <h3 className="texto-extrabold-wide dark">CARLOS VILLAVERDE</h3>
+        <h3 className="texto-extrabold-wide dark">CARLOS VILAVERDE</h3>
         <p className="texto-lato">
           Videógrafo y fotógrafo con sede en Gijón, donde la dinámica urbana y
           la cultura son la esencia de mi arte. Me especializo en
@@ -85,7 +85,7 @@ const Section3 = () => {
       </div>
       <div className="description-about">
         {" "}
-        <h3 className="texto-extrabold-wide dark">CARLOS VILLAVERDE</h3>
+        <h3 className="texto-extrabold-wide dark">CARLOS VILAVERDE</h3>
         <p className="texto-lato">
           Videógrafo y fotógrafo con sede en Gijón, donde la dinámica urbana y
           la cultura son la esencia de mi arte. Me especializo en
