@@ -3,9 +3,9 @@ import "./globals.css";
 
 export const metadata = {
   title:
-    "SK FILMS - Videografía y Fotografía Profesional en Gijón y Marbella | Carlos Vilaverde",
+    "SK FILMS - Videografía y Fotografía Profesional en Gijón, Asturias y Marbella | Carlos Vilaverde",
   description:
-    "SK FILMS, especializadOS en videografía y fotografía de alta calidad para tu negocio. Localizados en Gijón y Marbella. Servicios bajo demanda para capturar tus momentos más importantes.",
+    "SK FILMS, especializados en videografía y fotografía de alta calidad para tu negocio. Localizados en Gijón y Marbella. Servicios bajo demanda para capturar tus momentos más importantes.",
 };
 
 export default function RootLayout({ children }) {
@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         <meta name="description" content={metadata.description} />
         <meta
           name="keywords"
-          content="SK FILMS, Videografía, Fotografía, Gijón, Marbella, Carlos Villaverde"
+          content="SK FILMS, Videografía, Fotografía, Gijón, Asturias, Marbella, Carlos Vilaverde"
         />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
