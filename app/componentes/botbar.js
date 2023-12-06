@@ -12,16 +12,18 @@ const Botbar = () => {
     <section className={`botbar ${estado3 ? "moveup":""}`}>
       <div className="div2-inter texto-normal-wide">
         <span className="glitch-hover-youtube">
-      
-          <span>YOUTUBE</span>
+       <a target="_blank" href="https://www.youtube.com/@skproduccion/videos">YOUTUBE</a>
+       
         </span>
         <span className="glitch-hover-instagram">
-        
-          <span>INSTAGRAM</span>
+         <a target="_blank" href="https://www.instagram.com/sk.filming/">INSTAGRAM</a>
+
+       
         </span>
         <span className="glitch-hover-linkedin">
-        
-          <span>LINKEDIN</span>
+            <a target="_blank" href="https://www.linkedin.com/in/shuck-undefined-9491332a3/">LINKEDIN</a>
+
+      
         </span>
       </div>
     </section>

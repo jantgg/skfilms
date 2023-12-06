@@ -56,15 +56,15 @@ const Section3 = () => {
         <div className="footer-movil texto-bold-wide dark">
     
       
-          <a href="">YOUTUBE</a>
+          <a target="_blank" href="https://www.youtube.com/@skproduccion/videos">YOUTUBE</a>
    
     
         
-          <a href="">INSTAGRAM</a>
+          <a target="_blank" href="https://www.instagram.com/sk.filming/">INSTAGRAM</a>
 
   
         
-          <a href="">LINKEDIN</a>
+          <a target="_blank" href="https://www.linkedin.com/in/shuck-undefined-9491332a3/">LINKEDIN</a>
 
       </div>
 

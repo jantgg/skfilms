@@ -154,6 +154,7 @@ const Section1 = () => {
               autoPlay
               loop
               muted
+               controls
               fill="true"
             />
           </div>
@@ -172,6 +173,7 @@ const Section1 = () => {
               autoPlay
               loop
               muted
+               controls
               fill="true"
             />
           </div>
@@ -190,6 +192,7 @@ const Section1 = () => {
               autoPlay
               loop
               muted
+               controls
               fill="true"
             />
           </div>
@@ -208,6 +211,7 @@ const Section1 = () => {
               autoPlay
               loop
               muted
+               controls
               fill="true"
             />
           </div>
