@@ -84,7 +84,7 @@ const Section1 = () => {
            className={`video-container`}
          >
            <video
-             src="https://res.cloudinary.com/dsbp8pqdb/video/upload/v1701791760/shuck/barberia_nq1hox.mp4"
+             src="https://res.cloudinary.com/dxxcredqb/video/upload/v1702763895/kibqnftxbyf0qiw6mneg.mp4"
              autoPlay
              loop
              muted
@@ -97,7 +97,7 @@ const Section1 = () => {
            className={`video-container `}
          >
            <video
-             src="https://res.cloudinary.com/dsbp8pqdb/video/upload/v1701791753/shuck/flashback_g8h4r4.mp4"
+             src="https://res.cloudinary.com/dxxcredqb/video/upload/v1702763972/jar1x2bbddsahc60z9pz.mp4"
              autoPlay
              loop
              muted
@@ -110,7 +110,7 @@ const Section1 = () => {
            className={`video-container`}
          >
            <video
-             src="https://res.cloudinary.com/dsbp8pqdb/video/upload/v1701791743/shuck/tattoo_jcn2gf.mp4"
+             src="https://res.cloudinary.com/dxxcredqb/video/upload/v1702764312/aktf8spe9ntzfz6lyiai.mp4"
              autoPlay
              loop
              muted
@@ -123,7 +123,7 @@ const Section1 = () => {
            className={`video-container `}
          >
            <video
-             src="https://res.cloudinary.com/dsbp8pqdb/video/upload/v1701791727/shuck/laser_dhield.mp4"
+             src="https://res.cloudinary.com/dxxcredqb/video/upload/v1702763831/hpp3a2yllawvsecgttaj.mp4"
              autoPlay
              loop
              muted
