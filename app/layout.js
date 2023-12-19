@@ -11,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <Head>
+      <head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta
@@ -33,7 +33,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
           rel="stylesheet"
         ></link>
-      </Head>
+      </head>
       <body>{children}</body>
     </html>
   );
