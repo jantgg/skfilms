@@ -123,7 +123,7 @@ const Section1 = () => {
            className={`video-container `}
          >
            <video
-             src="https://res.cloudinary.com/dxxcredqb/video/upload/v1702763972/jar1x2bbddsahc60z9pz.mp4"
+             src="https://res.cloudinary.com/dxxcredqb/video/upload/v1705441382/disel_promo_wm5weg.mp4"
              autoPlay
              loop
              muted
@@ -207,7 +207,7 @@ const Section1 = () => {
             }`}
           >
             <video
-            src="https://res.cloudinary.com/dxxcredqb/video/upload/v1702763972/jar1x2bbddsahc60z9pz.mp4"
+            src="https://res.cloudinary.com/dxxcredqb/video/upload/v1705441382/disel_promo_wm5weg.mp4"
               autoPlay
               loop
               muted
